@@ -36,4 +36,10 @@ Right-hand-side matrix (B) has dimension of 4 × 1 and is equal to 𝑘𝑙𝑒�
 
 For boundary condition at x-direction flow, the pressure values at top and bottom are set zero and only arbitrarily assumed pressure values at left and right are present and vice versa for boundary condition at y-direction flow. By writing discretization codes to determine permeability values of 2 x 2 matrix (ktop left, ktop right, kbottom right, kbottom left), pressure fields was determined. 
 
-From that determined pressure values and permeability values, flow Q was calculated which later was used to figure out final upscaled permeability values for x and y direction flows
+From that determined pressure values and permeability values, flow Q was calculated which later was used to figure out final upscaled permeability values for x and y direction flows.
+
+Why did I estimate error margin?
+
+The end goal for estimating error margin is to analyse the discrepancy between the fine-scaled Vs coarse-scaled simulated production profile. Upscaling can cause loss of heterogeneity within the reservoir. In real world development, loss of heterogeneity can lead to poor returns of investment and fail development plan. Therefore, error estimation is crucial. 
+
+The detailed information of error estimation method, description can be found at the report listed in this repositary. 
