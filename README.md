@@ -42,4 +42,5 @@ Why did I estimate error margin?
 
 The end goal for estimating error margin is to analyse the discrepancy between the fine-scaled Vs coarse-scaled simulated production profile. Upscaling can cause loss of heterogeneity within the reservoir. In real world development, loss of heterogeneity can lead to poor returns of investment and fail development plan. Therefore, error estimation is crucial. 
 
+Error estimation is conducted for permeability in 2 separate directions (X and Y direction) 
 The detailed information of error estimation method, description can be found at the report listed in this repositary. 
