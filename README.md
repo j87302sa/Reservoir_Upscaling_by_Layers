@@ -7,7 +7,7 @@ The contents uploaded here are mainly focused on upscaling of the reservoir usin
 Aims 
 * To shrink the dimension of 120:60:10 into 60:30:10 (Z-direction layers are input as unchanged due to the importance of reservoir thickness for simulation)
 * To generate a MATLAB code that can execuete Flow-based or Analytical upscaling method by generating coarse-scale reservoir layers
-* To transform the resutant datum into GRDECL format, use them in ECLIPSE100 software to execute field production simulation, develop the model further with
+* To transform the resultant datum into GRDECL format, use them in ECLIPSE100 software to execute field production simulation, develop the model further with
   modification of wells-placement and a choice of secondary reservoir depletion method
 * To generate field data in PETREL (GOR, watercut, production plateu, saturation profile)
 * To narrow down the error margin of fine-scaled simulation data Vs coarse-scaled simulation data
